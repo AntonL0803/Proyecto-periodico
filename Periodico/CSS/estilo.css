@@ -39,4 +39,16 @@ nav a {
 
 main{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(../Img/PaisajeJapon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
