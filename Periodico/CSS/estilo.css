@@ -1,0 +1,42 @@
+/* Barra de navegación */
+nav {
+    display: flex; 
+    align-items: center; 
+    position: fixed;
+    background-color: #F2E8DC ;
+    border-radius: 30px;
+    margin: 0;
+    top: 10px;
+    padding: 20px;
+    width: auto;
+    max-width: 100%;
+    left: 20px;
+    right: 20px;
+}
+
+#tituloLogo {
+    position: fixed;
+    right: 60px;
+    font-size: 24px; 
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+nav a {
+    text-decoration: solid;
+    font-size: 25px;
+    color: #404040 ;
+    font-family:'Franklin Gothic Medium';
+}
+.navegacion{
+    margin-left: 20px;
+}
+/* Cuerpo de la pagina web */
+
+main{
+    margin-top: 100px;
+}
