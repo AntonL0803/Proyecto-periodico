@@ -10,26 +10,29 @@
 </head>
 
 <body>
-    <nav>
-        <h3 id="tituloLogo">
-            <p>J</p>
-            <p>apan</p>
-            <p>A</p>
-            <p>nime</p>
-            <p>N</p>
-            <p>ews</p>
-        </h3>
-        <a class="navegacion" href="./indice.html">Inicio</a>
-        <a class="navegacion" href="./datosContacto.html">Datos de contacto</a>
-    </nav>
+    <header>
+        <nav>
+            <h3 id="tituloLogo">
+                <p>J</p>
+                <p>apan</p>
+                <p>A</p>
+                <p>nime</p>
+                <p>N</p>
+                <p>ews</p>
+            </h3>
+            <a target="_blank" class="navegacion" href="./indice.html">Inicio</a>
+            <a target="_blank" class="navegacion" href="./datosContacto.html">Datos de contacto</a>
+        </nav>
+    </header>
     <main>
-        <h1 id="tituloPagina">ULTIMAS NOTICIAS EN JAPÓN</h1>
+        <section id="tituloPagina">
+            <h1>ULTIMAS NOTICIAS EN JAPÓN</h1>
+        </section>
         <section class="contenedor-noticias">
-            <article>
-                <iframe class="media" width="560" height="315"
-                    src="https://www.youtube.com/embed/4b0gzFXmtCk?autoplay=1&mute=1" title="gato tostada arcoiris"
-                    frameborder="2"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            <article class="noticias-principales">
+                <iframe class="media" src="https://www.youtube.com/embed/4b0gzFXmtCk?autoplay=1&mute=1"
+                    title="gato tostada arcoiris" frameborder="2"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 <h2 class="tituloArticulo">¿El anime es para niños?</h2>
                 <p>El anime japonés se refiere a un estilo específico de animación que se originó en Japón y ha
@@ -41,13 +44,10 @@
                     controversico
                     entre la gente que ve anime y es, si el anime es infantil.</p>
             </article>
-            <article>
-                <iframe class="media" width="560" height="315"
-                    src="https://www.youtube.com/embed/4b0gzFXmtCk?autoplay=1&mute=1" title="gato tostada arcoiris"
-                    frameborder="2"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <h2 class="tituloArticulo">¿El anime es para niños?</h2>
+            <article class="noticias-secundarias">
+                <a href="">
+                    <h2>Otras noticias</h2>
+                </a>
                 <p>El anime japonés se refiere a un estilo específico de animación que se originó en Japón y ha
                     llegado
                     a
@@ -71,6 +71,18 @@
         </section>
     </main>
     <footer>
+        <section>
+            <section class="logo">
+                <img id="logo-footer" src="./Img/pagoda_japonesa.png" alt="Logo">
+            </section>
+            <section class="enlaces">
+                <a href="#">Inicio</a>
+                <a href="#">Contacto</a>
+            </section>
+        </section>
+        <section class="derechos">
+            <p>&copy; JapanAnimeNews. Todos los derechos reservados.</p>
+        </section>
     </footer>
 </body>
 
