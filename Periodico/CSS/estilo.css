@@ -38,10 +38,15 @@ nav a {
 /* Cuerpo de la pagina web */
 
 main{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10%;
+    background-color:#F2E8DC;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 40px;
+}
+#tituloPagina{
+    text-align: center;
+    margin-top: 40px;
 }
 
 body{
@@ -51,4 +56,29 @@ body{
     background-position: center;
     margin: 0;
     padding: 0;
+}
+
+/* hueco de noticias central*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+article {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* Disposición de cada noticia dentro del bloque de noticias */
+.contenedor-noticias{
+    column-count: 2;
+    column-gap: 20px;
 }
