@@ -4,44 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gastronomia japonesa</title>
-    <link rel="icon"
-        href="C:\Users\yoyil\OneDrive\Escritorio\Ejercicios de Visula\Ejercicios_html\Segundo_Trimestre\Proyecto_periodico\Imagenes\pagoda_japonesa.png"
-        type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS\estilo.css">
+    <link rel="icon" href="./Img/pagoda_japonesa.png" type="image/x-icon">
 </head>
 
 <body>
-
-    <main>
-        <!--Barra de navegación-->
+    <header>
         <nav>
-            <h3><b>Japan Blog</b>
-                <hr>
-                <nav> <a
-                        href="C:\Users\yoyil\OneDrive\Escritorio\Ejercicios de Visula\Ejercicios_html\Segundo_Trimestre\Proyecto_periodico\Index.html">Inicio</a>&nbsp;&nbsp;&nbsp;<a
-                        href="C:\Users\yoyil\OneDrive\Escritorio\Ejercicios de Visula\Ejercicios_html\Segundo_Trimestre\Proyecto_periodico\Datos_de_contacto.html">Datos
-                        de contacto</a>
-                    <hr>
-                </nav>
+            <a target="_blank" class="navegacion" href="./indice.html">Inicio</a>
+            <a target="_blank" class="navegacion" href="./datosContacto.html">Datos de contacto</a>
+            <h3 id="tituloLogo">
+                <p>J</p>
+                <p>apan</p>
+                <p>A</p>
+                <p>nime</p>
+                <p>N</p>
+                <p>ews</p>
+                <section id="logoPagoda">
+                    <img src="./Img/pagoda_japonesa.png" alt="Logo Pagoda">
+                </section>
+            </h3>
         </nav>
+    </header>
+    <main>
         <section>
-            <!--Aquí empieza la noticia-->
-            <h1>Datos de contacto</h1>
-            <pre>
-            Si desea ponerse en contacto con nostros podrá hacerlo a través de:
-            </pre>
+            <h1 id="tituloPagina">Datos de contacto</h1>
+            <p class="descripcion">Si desea ponerse en contacto con nostros podrá hacerlo a través de:</p>
             <ul>
                 <li>Teléfono: 618234566</li>
                 <li>Correo electrónico: japanblog@gmail.com</li>
                 <li>Dirección: C/Rosas, 5</li>
             </ul>
-            <pre>
-            <img src="C:\Users\yoyil\OneDrive\Escritorio\Ejercicios de Visula\Ejercicios_html\Segundo_Trimestre\Proyecto_periodico\Imagenes\imagen oficina.jpg" alt="oficina" width="800" />
-            </pre>
-            <br>
-            <h7>Imagen de la oficina</h7>
-            <p>Si desea realizar algún tipo de consulta o visita a la oficina deberá realizar una cita previa, Muchas
+            <p class="descripcion">Si desea realizar algún tipo de consulta o visita a la oficina deberá realizar una cita previa, Muchas
                 gracias.</p>
         </section>
     </main>
